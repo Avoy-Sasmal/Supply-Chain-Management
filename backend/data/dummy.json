@@ -1,0 +1,178 @@
+[
+  {
+    "deviceId": "iot-12345",
+    "timestamp": "2025-09-08T10:30:00Z",
+    "geoLocation": {
+      "latitude": 28.6139,
+      "longitude": 77.209
+    },
+    "productDetails": {
+      "productId": "prod-9876",
+      "name": "Medical Equipment",
+      "temperature": "22.5C"
+    },
+    "ownership": {
+      "owner": "ABC Logistics",
+      "transporter": "XYZ Transport"
+    },
+    "transportation": {
+      "from": "New Delhi",
+      "to": "Mumbai",
+      "status": "In Transit"
+    }
+  },
+  {
+    "deviceId": "iot-67890",
+    "timestamp": "2025-09-08T11:15:00Z",
+    "geoLocation": {
+      "latitude": 19.076,
+      "longitude": 72.8777
+    },
+    "productDetails": {
+      "productId": "prod-6543",
+      "name": "Pharmaceuticals",
+      "temperature": "18.0C"
+    },
+    "ownership": {
+      "owner": "MediCorp",
+      "transporter": "SafeTrans"
+    },
+    "transportation": {
+      "from": "Mumbai",
+      "to": "Bangalore",
+      "status": "Dispatched"
+    }
+  },
+  {
+    "deviceId": "iot-24680",
+    "timestamp": "2025-09-08T12:00:00Z",
+    "geoLocation": {
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "productDetails": {
+      "productId": "prod-3210",
+      "name": "Frozen Food",
+      "temperature": "-5.0C"
+    },
+    "ownership": {
+      "owner": "FreshFoods Pvt Ltd",
+      "transporter": "CoolTrans"
+    },
+    "transportation": {
+      "from": "Bangalore",
+      "to": "Hyderabad",
+      "status": "In Transit"
+    }
+  },
+  {
+    "deviceId": "iot-13579",
+    "timestamp": "2025-09-08T12:45:00Z",
+    "geoLocation": {
+      "latitude": 17.385,
+      "longitude": 78.4867
+    },
+    "productDetails": {
+      "productId": "prod-2468",
+      "name": "Electronics",
+      "temperature": "25.0C"
+    },
+    "ownership": {
+      "owner": "ElectroWorld",
+      "transporter": "QuickMove"
+    },
+    "transportation": {
+      "from": "Hyderabad",
+      "to": "Chennai",
+      "status": "Awaiting Pickup"
+    }
+  },
+  {
+    "deviceId": "iot-11223",
+    "timestamp": "2025-09-08T13:30:00Z",
+    "geoLocation": {
+      "latitude": 13.0827,
+      "longitude": 80.2707
+    },
+    "productDetails": {
+      "productId": "prod-7788",
+      "name": "Textiles",
+      "temperature": "30.0C"
+    },
+    "ownership": {
+      "owner": "FabricHub",
+      "transporter": "SouthTrans"
+    },
+    "transportation": {
+      "from": "Chennai",
+      "to": "Kolkata",
+      "status": "Dispatched"
+    }
+  },
+  {
+    "deviceId": "iot-33445",
+    "timestamp": "2025-09-08T14:20:00Z",
+    "geoLocation": {
+      "latitude": 22.5726,
+      "longitude": 88.3639
+    },
+    "productDetails": {
+      "productId": "prod-8899",
+      "name": "Chemicals",
+      "temperature": "15.0C"
+    },
+    "ownership": {
+      "owner": "ChemSafe",
+      "transporter": "EastCargo"
+    },
+    "transportation": {
+      "from": "Kolkata",
+      "to": "Patna",
+      "status": "In Transit"
+    }
+  },
+  {
+    "deviceId": "iot-55667",
+    "timestamp": "2025-09-08T15:10:00Z",
+    "geoLocation": {
+      "latitude": 25.5941,
+      "longitude": 85.1376
+    },
+    "productDetails": {
+      "productId": "prod-9900",
+      "name": "Grains",
+      "temperature": "28.0C"
+    },
+    "ownership": {
+      "owner": "AgroCorp",
+      "transporter": "NorthLogistics"
+    },
+    "transportation": {
+      "from": "Patna",
+      "to": "Lucknow",
+      "status": "In Transit"
+    }
+  },
+  {
+    "deviceId": "iot-77889",
+    "timestamp": "2025-09-08T16:00:00Z",
+    "geoLocation": {
+      "latitude": 26.8467,
+      "longitude": 80.9462
+    },
+    "productDetails": {
+      "productId": "prod-1112",
+      "name": "Vaccines",
+      "temperature": "5.0C"
+    },
+    "ownership": {
+      "owner": "HealthLife",
+      "transporter": "MediTrans"
+    },
+    "transportation": {
+      "from": "Lucknow",
+      "to": "Delhi",
+      "status": "Delivered"
+    }
+  }
+]
