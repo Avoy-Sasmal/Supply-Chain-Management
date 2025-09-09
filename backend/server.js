@@ -1,20 +1,16 @@
-import express from "express"
-import dotenv from "dotenv"
-import connectDb from "./db/db.js";
-dotenv.config()
+import express from "express";
 
-const app = express()
-const port = process.env.PORT || 3000 ;
+import homeRoute from "./routes/router.js"
+import dotenv from "dotenv";
+dotenv.config();
 
-// middleware 
-app.use(express.json())
-// coonect db 
-connectDb();
+const app = express();
+const port = process.env.PORT || 3000;
 
-//routes 
+//routes
+app.use("/api/v1",homeRoute)
 
 
-app.listen(port,()=>{
+app.listen(port, (req, res) => {
   console.log(`surver is running in http://localhost:${port}`);
-  
-})
+});
